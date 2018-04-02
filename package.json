@@ -2,7 +2,7 @@
   "name": "users-ms",
   "version": "1.0.0",
   "description": "",
-  "main": "user-ms.js",
+  "main": "server.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test --recursive --reporter spec",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha ./test -- --recursive --reporter spec",
@@ -20,6 +20,7 @@
     "sinon": "^3.2.1"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "~4.0.0",
     "jsonschema": "^1.2.0",
     "mongodb": "3.0.2"
